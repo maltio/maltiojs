@@ -1,3 +1,14 @@
-body{
-  height: 100px;  
-}
+//Font
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+@import "config";
+
+//Components
+@import "components/modal";
+@import "components/future-head";
+
+//Structre
+@import "structure/reset";
+@import "structure/body";
+@import "structure/container";
+@import "structure/navigation";

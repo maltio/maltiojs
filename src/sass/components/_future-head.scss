@@ -1,0 +1,17 @@
+.future-head{
+  width: 100%;
+  padding: 15px;
+  min-height: 300px;
+  border-bottom:1px #ccc solid;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items:center;
+  text-align: center;
+  justify-content:center;
+
+  .future-head__content{
+    text-align: center;
+  }
+
+}
