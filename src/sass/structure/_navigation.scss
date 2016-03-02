@@ -1,0 +1,20 @@
+.navbar{
+    width: 100%;
+    padding: 20px;
+    height:auto;
+    margin-bottom:10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    & a{
+      color:$navbar__link_color--default;
+      text-decoration: none;
+    }
+    &.navbar-default{
+      background-color: $navbar__background_color--default;
+      border-bottom:1px $navbar__border_color--default solid;
+    }
+    &.navbar-fixed{
+      position: fixed;
+      top:0;
+      left:0;
+    }
+}

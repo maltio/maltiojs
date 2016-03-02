@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.modal {
+  display: block;
+  height: 200px;
+  border-radius: 4px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); }
+  .modal .modal__title {
+    padding: 10px;
+    color: #ffffff; }
+    .modal .modal__title .close {
+      float: right;
+      color: #ffffff; }
+  .modal .modal__body {
+    padding: 10px; }
+  .modal.modal-sm {
+    width: 34em; }
+  .modal.modal-md {
+    width: 64em; }
+  .modal.modal-lg {
+    width: 96em; }
+  .modal.modal-default {
+    background-color: #ECEFF1;
+    border: 1px #607D8B solid; }
+    .modal.modal-default .modal__title {
+      background-color: #607D8B;
+      border-bottom: 1px #455A64 solid; }
+  .modal.modal-warning {
+    background-color: #ECEFF1;
+    border: 1px #FFC107 solid; }
+    .modal.modal-warning .modal__title {
+      background-color: #FFC107;
+      border-bottom: 1px #FFB300 solid; }
+
+.future-head {
+  width: 100%;
+  padding: 15px;
+  min-height: 300px;
+  border-bottom: 1px #ccc solid;
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+  .future-head .future-head__content {
+    text-align: center; }
+
+* {
+  box-sizing: border-box;
+  clear: both;
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+p, h1, h2, h3, h4, h5 {
+  margin-bottom: 15px; }
+
+body {
+  font-family: 'Roboto','Helvetica', sans-serif;
+  background-color: #ECEFF1;
+  color: #37474F;
+  padding-top: 60px; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 15%; }
+
+.navbar {
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); }
+  .navbar a {
+    color: #fff;
+    text-decoration: none; }
+  .navbar.navbar-default {
+    background-color: #607D8B;
+    border-bottom: 1px #607D8B solid; }
+  .navbar.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0; }
