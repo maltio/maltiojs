@@ -1,0 +1,30 @@
+{
+  "name": "maltiojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maltio/maltiojs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maltio/maltiojs/issues"
+  },
+  "homepage": "https://github.com/maltio/maltiojs#readme"
+}
