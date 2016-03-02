@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+<button class="btn btn-modal">Click to Open</button>
+
+<div id="modal1" class="modal">
+  <div class="modal__title">My Modal</div>
+  <div class="modal__body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti similique dolorem fugiat optio obcaecati ipsam! Quis quibusdam dolore earum, quas deleniti quae sit doloremque dolorem corrupti provident illum ab officiis.</p></div>
+</div>
+
+<script type="text/javascript">
+ window.onload = function(){
+   $mtModal({id:'modal1'})
+ };
+</script>
+<script src="src/helpers.js" charset="utf-8"></script>
+<script src="src/modules/modal.class.js" charset="utf-8"></script>
+</body>
+</html>
