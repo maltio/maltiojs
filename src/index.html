@@ -9,11 +9,25 @@
 
   <header>
     <nav class="navbar navbar-default navbar-fixed">
-      <ul><li><a href="#">MaltioJS</a></li></ul>
+      <ul><li><a href="#">MALT.IO.JS</a></li></ul>
     </nav>
   </header>
 
-  <div class="future-head" style="background-image:url(https://newevolutiondesigns.com/images/freebies/google-material-design-wallpaper-2.jpg)">
+  <div id="home-head" class="future-head" style="background-image:url(https://newevolutiondesigns.com/images/freebies/google-material-design-wallpaper-2.jpg)">
+    <div class="future-head__content">
+      <div class="container">
+        <h1>Future-head</h1>
+        <h2>Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="btn btn-primary">Next</button>
+        <button class="btn btn-danger">Delete</button>
+        <button class="btn btn-success">Go</button>
+        <a href="#" class="btn btn-success"> asdasd </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="home-test" class="future-head" style="background-image:url(http://yesassets.okdk.co.uk/minititle/cache/minititle-5345-q90-h900-ml99-rz3-b75.jpg)">
     <div class="future-head__content">
       <div class="container">
         <h1>Future-head</h1>
@@ -34,7 +48,9 @@
 
     <script type="text/javascript">
      window.onload = function(){
-       //$mtModal({id:'modal1'}, 'open')
+      //$mtModal({id:'modal1'}, 'open');
+      $mtFutureHead({id:'home-head', isFullScreen:true})
+      $mtFutureHead({id:'home-test', isFullScreen:true})
      };
     </script>
   </div>
@@ -43,6 +59,7 @@
   <script src="js/helpers.js"></script>
   <!-- Modules -->
   <script src="js/modules/modal.class.js"></script>
+  <script src="js/modules/future-head.class.js"></script>
 
 </body>
 </html>

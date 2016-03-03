@@ -1,0 +1,56 @@
+.btn{
+  background: $btn__background_color--default;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  border-width:1px;
+  border-color: $btn__border_color--default;
+  border-style: solid;
+  width: 10em;
+  color:$btn__font_color--default;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-shadow: none;
+  box-shadow:  0 2px 5px rgba(0,0,0,0.26);
+
+
+  &.btn-default{
+    background: $btn__background_color--default;
+    border-color:$btn__border_color--default;
+    color:$btn__font_color--default;
+    &:hover{
+      box-shadow:  0 2px 5px rgba(0,0,0,0.1);
+    }
+  }
+
+  &.btn-primary{
+    background: $btn__background_color--primary;
+    border-color:$btn__border_color--primary;
+    color:$btn__font_color--primary;
+    &:hover{
+      box-shadow:  0 2px 5px rgba(0,0,0,0.1);
+    }
+  }
+
+  &.btn-success{
+    background: $btn__background_color--success;
+    border-color:$btn__border_color--success;
+    color:$btn__font_color--success;
+    &:hover{
+      box-shadow:  0 2px 5px rgba(0,0,0,0.1);
+    }
+  }
+
+  &.btn-danger{
+    background: $btn__background_color--danger;
+    border-color:$btn__border_color--danger;
+    color:$btn__font_color--danger;
+    &:hover{
+      box-shadow:  0 2px 5px rgba(0,0,0,0.1);
+    }
+  }
+
+
+}

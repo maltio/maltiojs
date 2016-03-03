@@ -17,3 +17,46 @@ $modal__title_font_color--default: #ffffff;
 $modal__background_color--warning:#FFC107;
 $modal__border_color--warning: #FFB300;
 $modal__title_font_color--warning: #ffffff;
+
+//Future Head Config Color
+$future_head__h1_color:#fff;
+$future_head__h2_color:#fff;
+$future_head__text_color:#fff;
+
+//Button Config color
+
+//default
+$btn__background_color--default:#607D8B;
+$btn__background_color-hover--default:transparent;
+
+$btn__font_color--default:#fff;
+$btn__font_color-hover--default:#fff;
+
+$btn__border_color--default:#607D8B;
+
+//primary
+$btn__background_color--primary:#2196F3;
+$btn__background_color-hover--primary:transparent;
+
+$btn__font_color--primary:#fff;
+$btn__font_color-hover--primary:#fff;
+
+$btn__border_color--primary:#2196F3;
+
+//sucess
+$btn__background_color--success:#009688;
+$btn__background_color-hover--success:transparent;
+
+$btn__font_color--success:#fff;
+$btn__font_color-hover--success:#009688;
+
+$btn__border_color--success:#009688;
+
+//danger
+$btn__background_color--danger:#F44336;
+$btn__background_color-hover--danger:transparent;
+
+$btn__font_color--danger:#fff;
+$btn__font_color-hover--danger:#F44336;
+
+$btn__border_color--danger:#F44336;
