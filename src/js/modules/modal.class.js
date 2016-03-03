@@ -1,4 +1,5 @@
 'use strict';
+
 function Modal(options) {
   this._hash      = new Date().getTime();
   this.id         = options.id || 'modal_'+new Date().getTime();

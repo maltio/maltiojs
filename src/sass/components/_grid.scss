@@ -1,0 +1,73 @@
+//Config
+$xs-min: 30;
+$sm-min: 48;
+$md-min: 64;
+$lg-min: 75;
+
+.container{
+  margin:0 auto;
+}
+
+.row{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+}
+
+[class^="col-xs"]{
+  box-sizing: border-box;
+  flex:0 0 auto;
+}
+
+.col-xs {
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+}
+
+$columns: 12;
+
+@for $i from 1 through $columns {
+  %g-cols-#{$i} {
+    flex-basis: ((100 / $columns ) * $i)+%; //8.333%;
+    max-width: ((100 / $columns ) * $i)+%; //8.333%;
+  }
+}
+
+.col-xs-1 {
+  @extend %g-cols-1;
+}
+.col-xs-2 {
+  @extend %g-cols-2;
+}
+.col-xs-3 {
+  @extend %g-cols-3;
+}
+.col-xs-4 {
+  @extend %g-cols-4;
+}
+.col-xs-5 {
+  @extend %g-cols-5;
+}
+.col-xs-6 {
+  @extend %g-cols-6;
+}
+.col-xs-7 {
+  @extend %g-cols-7;
+}
+.col-xs-8 {
+  @extend %g-cols-8;
+}
+.col-xs-9 {
+  @extend %g-cols-9;
+}
+.col-xs-10 {
+  @extend %g-cols-10;
+}
+.col-xs-11 {
+  @extend %g-cols-11;
+}
+.col-xs-12 {
+  @extend %g-cols-12;
+}
