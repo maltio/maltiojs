@@ -13,8 +13,9 @@ $text_shadow: 0 2px 5px rgba(0,0,0,0.26) !default;
   justify-content:center;
 
   .future-head__content{
+    width:100%;
     text-align: center;
-    text-shadow: $text_shadow;   
+    text-shadow: $text_shadow;
     h1{ color:$future_head__h1_color; }
     h2{ color:$future_head__h2_color; }
     p{ color:$future_head__text_color; }
